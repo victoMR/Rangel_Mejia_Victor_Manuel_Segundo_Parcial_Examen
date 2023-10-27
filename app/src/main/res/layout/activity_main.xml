@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"/>
+
+    <TextView
+        android:id="@+id/tvMensaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvMensaje1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"/>
+
+    <EditText
+        android:id="@+id/etMensaje1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/etMensaje1"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:ems="5"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCarros"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:spinnerMode="dropdown"
+        android:popupBackground="#dde2f9"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:background="@color/white"
+        android:dropDownVerticalOffset="50dp"
+        android:dropDownHorizontalOffset="50dp"
+        android:dropDownWidth="match_parent"
+        android:dropDownHeight="wrap_content"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalcular"
+        android:text="@string/btnCalcular"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

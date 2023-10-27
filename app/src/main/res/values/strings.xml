@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rngel Mejia Victor Manuel Segundo Parcial Examen</string>
+    <string name="tvMensaje1">Ingresa los kilometros recoridos 🚘</string>
+    <string name="etMensaje1">Kilometros</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="btnVolver">Volver</string>
+
+</resources>
